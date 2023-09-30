@@ -1,0 +1,96 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.one a{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+
+}
+.two {
+    font-size: 30px;
+    display: inherit;
+    align-content: center;
+    gap: 30px;
+    
+}
+.two a{
+    color: black;
+}
+.two a:hover{
+    color: rgb(179, 39, 39);
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    
+
+}
+.second img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 4px solid orange;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.third img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+
+
+}
+.fourth img{
+    width: auto;
+
+}
+.fifth{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    border-top: 1px wheat solid;
+    font-size: 30px;
+    
+    
+}
+.five{
+    display: inherit;
+    gap: 150px;
+}
+.fifth i{
+    color: black;
+}
+.fifth i:hover{
+    color: rgb(179, 39, 39);
+}

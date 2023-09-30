@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    
+}
+.face a{
+    font-size: 40px;
+ text-decoration: none;
+ font-weight: bolder;
+ color: blue;
+}
+.icon{
+    display: inherit;
+    gap: 10px;
+    align-items: center;
+    
+    
+    padding-right:20px ;
+}
+.icon a{
+    color: black;
+   font-size: 30px;
+   font-weight: lighter;
+   background-color: white;
+   padding: 9px 9px;
+   border-radius: 100px;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: white;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+.srd{
+   width: 850px;
+   height: 35px;
+   border-style: none;
+   /* outline: none; */
+   background-color: white;
+}
+.srd::placeholder{
+    font-size: 25px;
+    color: black;
+    
+
+}
+.srd:focus{
+    font-size: 20px;
+    text-indent: 0px;
+    outline-color: whitesmoke;
+}
+.second a i{
+   color: rgb(173, 255, 47);
+    
+}
+.gallary{
+    margin: 7px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+    
+    
+}
+.gallary img{
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+}
+.pot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.part{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+}
+.part h6{
+    width: 50px;
+    font-size: 10px;
+}
+
+.part img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    
+
+}
+.dot{
+    padding: 0px 40px;
+    font-size: 30px;
+}
+.third h5{
+    padding: 0px 15px;
+}
+.pics {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.pics img{
+   width: 400px;
+   
+}
+.last{
+    margin: 20px 30px;
+    height: 90px;
+}
+.forth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    font-size: 45px;
+    
+}
+.fa{
+    color: black;
+}
+
+.forth a{
+    
+    text-decoration: none;
+     color: black;
+
+}
+.forth h6{
+    font-size: 10px;
+    padding: 0px 6px;
+    font-weight: lighter;
+}
+
+
